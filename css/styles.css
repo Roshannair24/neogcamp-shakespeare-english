@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+:root {
+  --dark-grey: #374151;
+  --off-white: #f3f4f6;
+}
+
+body {
+  box-sizing: border-box;
+
+  background-image: url(/css/images/bg.jpg);
+  padding: 0;
+
+  margin: 0;
+}
+
+h3 {
+  font-family: "Tangerine", cursive;
+  margin: 0;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+::placeholder {
+  color: var(--dark-grey);
+  font-family: "Tangerine", cursive;
+}
+
+.headingholder {
+  text-align: center;
+}
+
+.outer-holder-structure {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15rem;
+  padding: 0.5rem;
+}
+
+.outer-holder-structure .inner-holder-structure {
+  width: calc(18rem * 1.4142);
+  height: 110%;
+
+  background-position: center;
+
+  background-image: url(/css/images/oldpage/34374-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-holder-structure .inner-holder-structure #textarea {
+  width: 100%;
+  height: 90%;
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Tangerine", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  outline: none;
+  resize: none;
+  border-style: none;
+  background-color: rgba(95, 158, 160, 0);
+
+  /* background-color: tomato; */
+}
+
+.translatebtnholder {
+  text-align: center;
+  /* padding: 0.1rem; */
+}
+/* 
+.outputdivholder {
+
+
+} */
+
+#btn-translate {
+  background-image: url(/css/images/seal.png);
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-color: rgba(255, 99, 71, 0);
+
+  border-style: none;
+}
+
+#btn-translate p {
+  font-family: "Tangerine", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+#btn-translate p:hover {
+color: #fbdb5f;
+transition: all 0.5s ease;
+
+  }
+
+.outputdivholder .outputdiv {
+  width: calc(18rem * 1.4142);
+  height: 110%;
+
+  background-position: center;
+
+  background-image: url(/css/images/oldpage/34374-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+}
+
+.outputdivholder .outputdiv .outputPara {
+  width: 100%;
+  height: 90%;
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  padding-top: 2rem;
+  outline: none;
+  resize: none;
+  border-style: none;
+  background-color: rgba(95, 158, 160, 0);
+
+  font-family: "Tangerine", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+
+  /* padding: 0.1rem; */
+}

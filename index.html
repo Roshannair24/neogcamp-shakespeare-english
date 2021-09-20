@@ -5,22 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="heading">
-      <h1>Shakespear english</h1>
+    <div class="headingholder" >
+      <h3>Shakespeare's english</h3>
     </div>
 
-    <div class="textdiv">
-      <textarea name="ntextarea" id="textarea" cols="30" rows="10"></textarea>
+    <div class="textdivholder outer-holder-structure">
+      <div class="inputTextHolder inner-holder-structure">
+        <textarea
+          name="ntextarea"
+          id="textarea"
+          placeholder="Write something here.."
+        ></textarea>
+      </div>
     </div>
 
-    <div class="translatebtnholder">
-      <button></button>
+    <div class="translatebtnholder" >
+      <button id="btn-translate"><p> Translate</p>            </button>
     </div>
 
-    <div class="outputdivholder">
-      <div class="outputdiv"></div>
+    <div
+      class="outputdivholder outer-holder-structure"
+     
+    >
+      <div class="outputdiv" >
+
+
+        <textarea readonly
+        name="noutputtextarea"
+        id="outputtextarea"
+        placeholder="See Shakespeare's translation here.." class="outputPara"
+      ></textarea>
+      </div>
     </div>
+
+    <footer >Image source:
+      <a href="https://www.freepik.com/vectors/vintage"
+        >Vintage vector created by macrovector - www.freepik.com</a
+      >
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
